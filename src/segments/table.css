@@ -1,0 +1,16 @@
+table {
+    table-layout: fixed;
+}
+
+.table-star {
+    width: 50px;
+}
+
+.table-title {
+    width: 280px;
+}
+
+.table-title, .table-body {
+    text-align: left;
+    padding: 15px;
+}

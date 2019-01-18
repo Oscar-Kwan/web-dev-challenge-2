@@ -1,0 +1,78 @@
+.app {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  background-image: linear-gradient(to right, #254c7d, seagreen);
+  height: 100px;
+  margin-top: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  padding: 15px;
+  justify-content: flex-start;
+}
+
+.search-button {
+  height: 50px;
+  width: 50px;
+  background-color: seagreen;
+  color: white;
+  transform: scaleX(-1);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.search-icon {
+  zoom: 150%;
+}
+
+.app-results {
+  flex: 2;
+  margin: 0px 15px;
+  overflow-y: hidden;
+}
+
+.app-table {
+  overflow: auto;
+  height: 100%;
+}
+
+.app-favorites {
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  margin: 0px 15px;
+}
+
+.input {
+  flex: 1;
+  margin-right: 15px;
+}
+
+h1 {
+  max-width: 50%;
+}
+
+.app-fav-title {
+  color: seagreen;
+  margin: 0;
+  text-align: left;
+  max-width: 100%;
+  height: auto;
+}
